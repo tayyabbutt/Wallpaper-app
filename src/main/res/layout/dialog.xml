@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Set as"
+        android:textAlignment="center"
+
+        android:textAllCaps="false"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/colorBlack" />
+
+
+    <Button
+        android:id="@+id/homeWallpaper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/dialog_bg"
+        android:padding="10dp"
+        android:text="Home Screen wallpaper"
+        android:textAlignment="center"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/lockScreenWallpaper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/dialog_bg"
+        android:padding="10dp"
+        android:text="Lock Screen wallpaper"
+        android:textAlignment="center"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/bothWallpaper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/dialog_bg"
+        android:padding="10dp"
+        android:text="Both"
+        android:textAlignment="center"
+        android:textAllCaps="true" />
+
+
+</LinearLayout>
